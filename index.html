@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best Forex Brokers 2026</title>
+<title>Best Forex Brokers</title>
 
 <style>
 body {
   margin:0;
   font-family: Arial;
-  background:#f4f6f9;
-  scroll-behavior:smooth;
+  background:#0b0b0b;
+  color:white;
 }
 
 /* HEADER */
@@ -18,8 +18,8 @@ header {
   position:fixed;
   top:0;
   width:100%;
-  background:#0d1b2a;
-  color:white;
+  background:black;
+  border-bottom:1px solid gold;
   padding:15px;
   text-align:center;
   z-index:1000;
@@ -27,72 +27,58 @@ header {
 
 /* HERO */
 .hero {
-  padding:100px 20px 40px;
+  padding:120px 20px 40px;
   text-align:center;
-  background:linear-gradient(135deg,#1b263b,#415a77);
-  color:white;
+  background: radial-gradient(circle, #1a1a1a, #000);
 }
 
 .hero h1 {
+  color:gold;
   font-size:32px;
 }
 
-.btn-main {
-  background:#00c853;
-  color:white;
-  padding:12px 25px;
-  border:none;
-  border-radius:5px;
-  text-decoration:none;
-  display:inline-block;
-  margin-top:15px;
+.hero p {
+  color:#ccc;
 }
 
-/* BROKER CARDS */
+/* BUTTON */
+.btn {
+  background:gold;
+  color:black;
+  padding:10px 20px;
+  border-radius:5px;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+  margin-top:10px;
+}
+
+/* BROKERS GRID */
 .container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
   padding:20px;
 }
 
 .card {
-  background:white;
-  padding:20px;
-  margin:15px auto;
-  max-width:500px;
+  width:260px;
+  background:#111;
+  border:1px solid gold;
+  margin:10px;
+  padding:15px;
   border-radius:10px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  text-align:center;
   transition:0.3s;
 }
 
 .card:hover {
-  transform:scale(1.03);
+  transform:scale(1.05);
+  box-shadow:0 0 15px gold;
 }
 
 .card h2 {
-  margin-top:0;
-}
-
-.features {
-  text-align:left;
-  margin:10px 0;
-}
-
-/* COMPARE TABLE */
-table {
-  width:90%;
-  margin:30px auto;
-  border-collapse:collapse;
-  background:white;
-}
-
-th, td {
-  border:1px solid #ddd;
-  padding:10px;
-  text-align:center;
-}
-
-th {
-  background:#0d1b2a;
-  color:white;
+  color:gold;
 }
 
 /* STICKY BUTTON */
@@ -100,35 +86,22 @@ th {
   position:fixed;
   bottom:20px;
   right:20px;
-  background:red;
-  color:white;
+  background:gold;
+  color:black;
   padding:15px 20px;
   border-radius:50px;
-  text-decoration:none;
   font-weight:bold;
-  z-index:2000;
+  text-decoration:none;
 }
 
-/* TRUST SECTION */
-.trust {
-  text-align:center;
-  padding:30px;
-  background:#fff;
-}
-
-.trust-box {
-  display:inline-block;
-  margin:10px;
-  padding:15px;
-  background:#f1f1f1;
-  border-radius:10px;
-}
-
+/* FOOTER */
 footer {
   text-align:center;
   padding:20px;
   font-size:12px;
-  color:#666;
+  color:#777;
+  border-top:1px solid #222;
+  margin-top:30px;
 }
 </style>
 
@@ -137,73 +110,54 @@ footer {
 <body>
 
 <header>
-Best Forex Brokers 2026
+BEST FOREX BROKERS 2026
 </header>
 
 <div class="hero">
-  <h1>Start Trading with Trusted Brokers</h1>
-  <p>Compare best forex brokers & sign up in 1 click</p>
-  <a href="#brokers" class="btn-main">View Brokers</a>
+  <h1>Trade With Trusted Brokers</h1>
+  <p>Compare top brokers and start trading in minutes</p>
 </div>
 
-<div class="trust">
-  <h2>Why Trust Us?</h2>
-  <div class="trust-box">Verified Brokers</div>
-  <div class="trust-box">Fast Withdrawal</div>
-  <div class="trust-box">Low Spread</div>
-</div>
-
-<div class="container" id="brokers">
+<div class="container">
 
   <div class="card">
-    <h2>Broker A</h2>
-    <div class="features">
-      ✔ Low Spread<br>
-      ✔ Fast Execution<br>
-      ✔ Beginner Friendly
-    </div>
-    <a class="btn-main" href="YOUR_AFFILIATE_LINK" target="_blank">Sign Up</a>
+    <h2>Deriv</h2>
+    <p>Flexible trading & trusted platform</p>
+    <a class="btn" href="YOUR_LINK" target="_blank">Sign Up</a>
   </div>
 
   <div class="card">
-    <h2>Broker B</h2>
-    <div class="features">
-      ✔ High Leverage<br>
-      ✔ Advanced Tools<br>
-      ✔ Global Access
-    </div>
-    <a class="btn-main" href="YOUR_AFFILIATE_LINK" target="_blank">Sign Up</a>
+    <h2>Exness</h2>
+    <p>Best spreads & fast withdrawals</p>
+    <a class="btn" href="YOUR_LINK" target="_blank">Sign Up</a>
+  </div>
+
+  <div class="card">
+    <h2>XM</h2>
+    <p>Low trading cost broker</p>
+    <a class="btn" href="YOUR_LINK" target="_blank">Sign Up</a>
+  </div>
+
+  <div class="card">
+    <h2>FBS</h2>
+    <p>Best for beginners</p>
+    <a class="btn" href="YOUR_LINK" target="_blank">Sign Up</a>
+  </div>
+
+  <div class="card">
+    <h2>OctaFX</h2>
+    <p>Copy trading available</p>
+    <a class="btn" href="YOUR_LINK" target="_blank">Sign Up</a>
   </div>
 
 </div>
 
-<table>
-<tr>
-  <th>Broker</th>
-  <th>Spread</th>
-  <th>Leverage</th>
-  <th>Rating</th>
-</tr>
-<tr>
-  <td>Broker A</td>
-  <td>Low</td>
-  <td>1:500</td>
-  <td>⭐⭐⭐⭐</td>
-</tr>
-<tr>
-  <td>Broker B</td>
-  <td>Medium</td>
-  <td>1:1000</td>
-  <td>⭐⭐⭐⭐⭐</td>
-</tr>
-</table>
-
-<a class="sticky" href="YOUR_AFFILIATE_LINK" target="_blank">
+<a class="sticky" href="YOUR_LINK" target="_blank">
 SIGN UP
 </a>
 
 <footer>
-We may earn commission from signups. Trade responsibly.
+We may earn commission from affiliate links. Trade responsibly.
 </footer>
 
 </body>
